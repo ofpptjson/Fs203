@@ -1,0 +1,42 @@
+.App {
+  width: 90%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.c1 {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.c1 h2 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.c1 h3 {
+  color: #e63946;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.c1 input {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.c1 input:hover {
+  background-color: #0056b3;
+}
